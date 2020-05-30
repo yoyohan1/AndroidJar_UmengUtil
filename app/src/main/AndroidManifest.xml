@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yoyohan.umengutil">
+    <!--检测联网方式，区分用户设备使用的是2G、3G或是WiFi-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--访问互联网-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--获取用户手机的IMEI，用来唯一的标识用户   只有这个会弹窗提醒 获取手机状态和电话权限-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!--如果您的应用会运行在无法读取IMEI的平板上，我们会将mac地址作为用户的唯一标识-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+</manifest>
