@@ -55,7 +55,7 @@ Auto模式会自动采集安卓原生页面 比如UnityPlayerActivity或者自�
 
 Legacy_Manual模式不会自动采集页面  需要PageBegin和PageEnd成对采集  iOS同理
 
-因此Unity集成的友盟不需要显示原生页面  应该选用Legacy_Manual模式 而友盟默认使用Legacy_Auto 所以需要调用SDK里的安卓原生代码 这样页面访问统计就能正常使用了。[我的aar源码]()
+因此Unity集成的友盟不需要显示原生页面  应该选用Legacy_Manual模式 而友盟默认使用Legacy_Auto 所以需要调用SDK里的安卓原生代码 这样页面访问统计就能正常使用了。[我的aar源码](https://github.com/yoyohan1/AndroidJar_UmengUtil)
 
 ```
 MobclickAgent.setPageCollectionMode(MobclickAgent.PageMode.LEGACY_MANUAL);
