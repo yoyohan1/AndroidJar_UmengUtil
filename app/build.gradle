@@ -27,3 +27,11 @@ dependencies {
     //implementation fileTree(dir: 'libs', include: ['*.jar'])
     compileOnly files('libs/umeng-game-8.0.0+G.jar')
 }
+
+allprojects {
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
